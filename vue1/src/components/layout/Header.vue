@@ -8,6 +8,7 @@
       <li><router-link to="/demo4">Demo 4</router-link></li>
       <li><router-link to="/demo5">Demo 5</router-link></li>
       <li><router-link to="/demo6">Demo 6</router-link></li>
+      <li><router-link to="/demo7">Demo 7</router-link></li>
     </ul>
   </div>
 </template>
@@ -20,13 +21,32 @@ export default {
 
 <style scoped>
 ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #5c9bb8;
 }
 
 li {
-  display: inline;
-  margin-right: 8px;
-  margin-left: 10px;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color:  #3d8baf;
+}
+li a:hover {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
 }
 </style>
