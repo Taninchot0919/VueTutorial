@@ -9,6 +9,9 @@
       <li><router-link to="/demo5">Demo 5</router-link></li>
       <li><router-link to="/demo6">Demo 6</router-link></li>
       <li><router-link to="/demo7">Demo 7</router-link></li>
+      <li><router-link to="/demo8">Demo 8</router-link></li>
+      <li><router-link to="/demo9">Demo 9</router-link></li>
+      <li><router-link to="/demo10">Demo 10</router-link></li>
     </ul>
   </div>
 </template>
@@ -38,7 +41,7 @@ li {
 }
 
 li:hover {
-  background-color:  #3d8baf;
+  background-color: #3d8baf;
 }
 li a:hover {
   color: white;

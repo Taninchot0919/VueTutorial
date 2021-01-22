@@ -1,6 +1,10 @@
 <template>
   <!-- หากเราใส่ <slot> เวลาเราพิมพ์อะไรจาก Demo7 จะมีการใส่เข้าไปใน slot หรือหากไม่ใส่เลยจะมี Default เข้ามาอยู่แทน -->
-  <div id="clock"><slot>Default : </slot>{{ time }}</div>
+  <div id="clock">
+    <slot name="header"></slot>
+    <slot>Default : </slot>{{ time }}
+    <slot name="footer"></slot>
+  </div>
 </template>
 
 <script>
