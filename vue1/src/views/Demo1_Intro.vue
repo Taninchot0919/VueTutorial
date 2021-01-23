@@ -1,5 +1,5 @@
 <template>
-  <div id="demo1">
+  <div id="Demo1">
     <h1>Demo1 : v-models</h1>
     <input v-model="message" type="text" placeholder="Enter Your Message" />
     <div>{{ message }}</div>
