@@ -1,5 +1,5 @@
 <template>
-  <div id="demo2">
+  <div id="Demo2">
     <h1>Event and Method</h1>
     <button v-on:click="clickMe">Click</button>
     <button v-on:click="clickMe2('Welcome to VueJS')">Click2</button>

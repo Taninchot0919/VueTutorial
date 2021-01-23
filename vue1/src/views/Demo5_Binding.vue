@@ -1,5 +1,5 @@
 <template>
-  <div id="demo5">
+  <div id="Demo5">
     <!-- เหมือนเป็นการเรียกใช้ค่าจากด้านล่างมาใส่แทน -->
     <img v-bind:src="imageURL" v-bind:height="height" />
     <br />
