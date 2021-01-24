@@ -1,5 +1,8 @@
 <template>
-  <div id="Footer" class="Footer">Coding by Taninchot Phuwaloetthiwat</div>
+  <div id="Footer" class="Footer">
+    Coding by Taninchot Phuwaloetthiwat  Reference :
+    <a href="https://youtu.be/JLc-hWsPTUY" style="color: red">https://youtu.be/JLc-hWsPTUY</a>
+  </div>
 </template>
 
 <script>
