@@ -1,5 +1,6 @@
 <template>
   <div id="Demo13">
+    <h1>First : Install VueFilter !  ! ! </h1>
     <h2>{{ 1234 | currency("THB") }}</h2>
     <h2>{{ 20000000000 | bytes }}</h2>
     <h2>{{ "taninchot" | capitalize({ onlyFirstLetter: true }) }}</h2>
@@ -19,5 +20,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+h1{
+  text-align: center;
+}
 </style>
