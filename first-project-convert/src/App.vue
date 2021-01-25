@@ -16,7 +16,9 @@ export default {
 </script>
 
 <style>
-* {
+body {
+  margin: 0;
+  padding: 0;
   background-image: url("./assets/background.jpg");
 }
 </style>
